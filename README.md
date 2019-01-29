@@ -121,9 +121,9 @@ This time we do not specify where to start the robot so it is now at a default p
   <img src="pick_scene.png"" height="400">
 </p>
 
-Name your python file `pick_demo.py` and put it under `~/homework_ws/src/fetch_gazebo/fetch_gazebo_demo/scripts/`. Run the following command will run your script as well as MoveIt!
+Name your python file `pick_demo.py` and put it under `~/homework_ws/src/fetch_gazebo/fetch_gazebo_demo/scripts/`. Run the following command start your script as well as MoveIt!
 ```
-roslaunch fetch_gazebo_demo pick_demo.pk
+roslaunch fetch_gazebo_demo pick_demo.launch
 ```
 
 
@@ -142,6 +142,6 @@ Here are some hints. The grasps returned by GraspIt! is in the frame of the obje
   <img src="moveit_scene.png"" height="400">
 </p>
 
-It is understandable if your script does not work 100% of the times, as there are too many unpredictable factors. But you need to at least get it work in your video demo.
+NOTE: It is understandable if your script does not work 100% of the times, as there are too many unpredictable factors. But you need to at least get it work in your video demo.
 
 # Submission
