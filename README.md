@@ -145,3 +145,15 @@ Here are some hints. The grasps returned by GraspIt! is in the frame of the obje
 NOTE: It is understandable if your script does not work 100% of the times, as there are too many unpredictable factors. But you need to at least get it work in your video demo.
 
 # Submission
+Submit a folder named Name_UNI, for example, john_white_jw2333. The folder should contain the following files:
+- motion_demo.py
+  - your code response for part 1
+- graspit_demo.py
+  - your code response for part 3
+- pick_demo.py
+  - your code response for part 4
+- README.md
+  - all 4 links of your YouTube video demo.
+  - any other implementation details that you want we know
+- (optional) other scripts or files that your code depends on
+Compress this folder to Name_UNI.zip and submit it to Coursework.
