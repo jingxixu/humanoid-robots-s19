@@ -1,5 +1,14 @@
 Homework for [COMSW6731 Humanoid Robots (SP19)](http://www.cs.columbia.edu/~allen/S19/) at Columbia University (Instructor: [Prof. Peter Allen](http://www.cs.columbia.edu/~allen/)).
 
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Workspace Preparation](#workspace-preparation)
+- [Part 1: Basic Motion](#part-1-basic-motion)
+- [Part 2: Using MoveIt!](#part-2-using-moveit)
+- [Part 3: Using Graspit!](#part-3-using-graspit)
+- [Part 4: Pick Demo](#part-4-pick-demo)
+
+
 # Workspace Preparation
 You need to have a computer with Ubuntu 14.04 and ROS Indigo installed. If you choose to use Ubuntu 16.04 or ROS Kinectic, it is your own responsibility to make sure that it also works on Ubuntu 14.04 + ROS Indigo, on which we tested your submission. The ROS Indigo installation link is [here](http://wiki.ros.org/indigo/Installation/Ubuntu).
 
