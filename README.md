@@ -106,8 +106,10 @@ Launch a Fetch robot with a playgroud in Gazebo
 roslaunch fetch_gazebo playground.launch
 ```
 
-This time we do not specify where to start the robot so it is now at a default position, as shown in the below image. The long box on the table is the same as the one you used in part 3 so that the graps you generated will work for it.
-<img src="pick_scene.png">
+This time we do not specify where to start the robot so it is now at a default position, as shown in the below image. The long box on the table is the same as the one you used in part 3 so that the grasps you generated will work.
+<p align="center">
+  <img src="pick_scene.png"" height="400">
+</p>
 
 
 ## Details
@@ -121,7 +123,9 @@ There are many ways to do it. The only requirement is that **you should not use 
 
 Here are some hints. The grasps returned by GraspIt! is in the frame of the object. You need to transform them into using robot's base_link, so that you can call MoveIt inside your program to move the arm to that pose. You might want to look at Gazebo's [gazebo_msgs/GetModelState](http://docs.ros.org/jade/api/gazebo_msgs/html/srv/GetModelState.html) service and python package [tf.transformations](http://docs.ros.org/jade/api/tf/html/python/transformations.html). You will also need to deal with collision while using MoveIt!, you nend to add collision objects into the scene. An example of the created scene in MoveIt! is shown below. You might not need to create the exact scene as long as it works.
 
-<img src="moveit_scene.png">
+<p align="center">
+  <img src="moveit_scene.png"" height="400">
+</p>
 
 Name your python file `pick_demo` and put it under `~/homework_ws/src/fetch_gazebo/fetch_gazebo_demo/scripts/`. It is understandable if your script does not work 100% of the times, as there are too many unpredictable factors. But you need to at least get it work in your video demo.
 
