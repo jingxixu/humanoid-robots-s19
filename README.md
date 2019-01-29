@@ -32,7 +32,7 @@ source devel/setup.bash
 ```
 
 # Part 1: Basic Motion
-In this part you need to control the robot to do a series of basic motions. [Video Demo](https://youtu.be/e8qMkphO-_w)
+In this part you need to control the robot to do a series of basic motions. See a video demo [here](https://youtu.be/e8qMkphO-_w).
 
 ## Prerequisites
 We expect you to have already gone through the following tutorials before you start this part.
@@ -64,9 +64,38 @@ You are required to implement the following sequence of motions:
 You are allowed to use `fetch_api` package from the `cse481wi18` repositiry that you cloned. You should name your response `motion_demo.py` and it is recommended that you put it under `~/homework_ws/src/fetch_gazebo/fetch_gazebo_demo/scripts/`.
 
 # Part 2: Using MoveIt!
+This part is quite easy! You just need to show a video of you using MoveIt! RViz plugin to sample a random valid goal joint values for the arm group, plan and then execute. Then use the MotionPlanning - Slider to replay the plan or go over the plan by waypoints. See a video demo [here](https://youtu.be/WZ79UkOrjs0).
+
+## Prerequisites
+We expect you to have already gone through the following tutorials before you start this part.
+- [Tutorial: MoveIt! RViz plugin](https://github.com/cse481wi18/cse481wi18/wiki/Tutorial%3A-MoveIt-RViz-plugin)
+- [MoveIt! python interface](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/move_group_python_interface/move_group_python_interface_tutorial.html#getting-started)
+
+## Launch
+Launch a Fetch robot with a playgroud in Gazebo
+```
+roslaunch fetch_gazebo playground.launch x:=0.0 y:=0.0 z:=0.0
+```
+Launch MoveIt! for Fetch
+```
+roslaunch fetch_moveit_config move_group.launch
+```
+Launch RViz (you might need to add a `RobotModel` and `MotionPlanning` visualization using the `add` botton)
+```
+rosrun rviz rviz
+```
+
 
 # Part 3: Using GraspIt!
+In this part, you are required to create a scene in GraspIt! and generate grasps. See a video demo [here](https://youtu.be/Su8q62TXgzg).
+
+## Prerequisites
+Follow the instructions [here](https://github.com/CURG/graspit_commander) to install GraspIt! You should also go over those simple usage.
+
+## Details
+The graspable object you are using is `longBox` and the gripper is `fetch_gripper`. You are required to include a obstacle `floor` and put the `longBox` on the `floor` as shown in the following image. This requires you to figure out a right pose to load `longBox` and `floor` in GraspIt!. GraspIt! has built-in functions to load these objects which allows you to specify their poses. Name the python file `graspit_demo.py` and put it under `~/homework_ws/src/fetch_gazebo/fetch_gazebo_demo/scripts/`.
 
 # Part 4: Pick Demo
+See a video demo [here](https://youtu.be/j5fzWVPW7YM).
 
 # Submission
