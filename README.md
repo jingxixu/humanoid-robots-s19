@@ -3,10 +3,10 @@ Homework for [COMSW6731 Humanoid Robots (SP19)](http://www.cs.columbia.edu/~alle
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Workspace Preparation](#workspace-preparation)
-- [Part 1: Basic Motion](#part-1-basic-motion)
-- [Part 2: Using MoveIt!](#part-2-using-moveit)
-- [Part 3: Using Graspit!](#part-3-using-graspit)
-- [Part 4: Pick Demo](#part-4-pick-demo)
+- [Part 1: Basic Motion](#part-1-basic-motion-20)
+- [Part 2: Using MoveIt!](#part-2-using-moveit-20)
+- [Part 3: Using Graspit!](#part-3-using-graspit-20)
+- [Part 4: Pick Demo](#part-4-pick-demo-40)
 - [Submission](#submission)
 
 
